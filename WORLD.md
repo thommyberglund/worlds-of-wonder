@@ -2,7 +2,7 @@
 
 # World Compendium: The Reclaiming Wilds
 
-## ## Core Description
+## Core Description
 
 A **High Fantasy** setting defined by the struggle between receding civilization and an ancient, predatory wilderness. The world is a patchwork of "shining" chivalry and "dark" eldritch horror, where the memories of fallen empires are etched into the very geography.
 
