@@ -15,23 +15,23 @@ A **High Fantasy** setting defined by the struggle between receding civilization
 
 ---
 
-## ## Geography & Climate
+## Geography & Climate
 
-### ### The Frozen North & Boreal Reaches
+### The Frozen North & Boreal Reaches
 
 A "graveyard of history" characterized by silence and cold.
 
 * **The Boreal Belt:** Dark evergreen forests housing the **Dwarven Mountain Kingdoms**. They are the world's primary source of iron and enchanted stone.
 * **The Sylvan Deep:** Home to the fierce **Mainland Elves**, who protect groves that predate the arrival of man.
 
-### ### The Central Plains: The Hearth of Humanity
+### The Central Plains: The Hearth of Humanity
 
 Mimicking the climate of Southern France and North Africa, these vast plains are the site of humanity's greatest triumph and most bitter defeat.
 
 * **The Feudal Corridors:** Grand cities built on ancient foundations. Knights and armies patrol the borders of a land still infested by the remnants of a fallen empire.
 * **The Necromantic Hollows:** Beneath the soil lie the catacombs where necromancers sifting through the bones of the "Empire of the Sun" to fuel their arts.
 
-### ### The South: Jungles, Deserts, and Ghosts
+### The South: Jungles, Deserts, and Ghosts
 
 The "Empty Lands" where the living are few and the past is dominant.
 
@@ -40,17 +40,17 @@ The "Empty Lands" where the living are few and the past is dominant.
 
 ---
 
-## ## History
+## History
 
-### ### I. The First Empires (The Pre-Human Era)
+### I. The First Empires (The Pre-Human Era)
 
 The southern deserts were once lush jungles. The first rulers, seeking immortality, turned to **human sacrifice**. They became **Sorcerer-Kings**, draining the life force of the land to sustain themselves, leaving behind the scorching deserts. They now wait in deathless slumber within their tombs for life to return.
 
-### ### II. The Arrival of the Elves
+### II. The Arrival of the Elves
 
 The Elves arrived en masse with the **Three Moons**. They brought "Static Magic" to freeze the world in a state of eternal peace. After a brutal campaign against the indigenous Orks and Goblins, an apocalyptic civil war shattered their empire, leaving only the isolationist remnants found today.
 
-### ### III. The First Men & The Empire of the Sun
+### III. The First Men & The Empire of the Sun
 
 * **The Kwa-Hazalits:** The first human tribes crossed a now-sunken land bridge from the East. They brought **The Fate**, a divine belief that empowers the faithful.
 * **The Rise:** Over 4,000 years, a small village grew into the **Empire of the Sun**, dominating the central plains.
@@ -59,16 +59,16 @@ The Elves arrived en masse with the **Three Moons**. They brought "Static Magic"
 
 ---
 
-## ## The Present Age
+## The Present Age
 
-### ### The Recolonization
+### The Recolonization
 
 After 800 years of exile on the coasts, humans are creeping back into the Central Plains.
 
 * **The Frontier:** New villages battle Orks and Goblins by day and the lingering Undead by night.
 * **The Great Muster:** The coastal kingdoms are currently gathering massive armies to permanently purge the heartlands and reclaim the ruins of the Empire of the Sun.
 
-### ### Present World Notes
+### Present World Notes
 
 * **The Ticking Clock:** The greening of the southern deserts is not a blessing—it is the "dinner bell" for the **Sorcerer-Kings**. If life returns to the south, they will wake.
 * **The Elven Paradox:** The Elves' "Static Magic" may be the only thing slowing the natural cycle enough to keep the Sorcerer-Kings asleep. If the Elves fail, the ancient world wakes up.
