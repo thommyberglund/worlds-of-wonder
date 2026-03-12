@@ -86,6 +86,19 @@ The further south you go, the more the world feels "empty" of the living and "fu
   - **Mastery (Level 5):** +6 bonus and a **unique passive** (e.g., "Shadowmeld" for Stealth).
 - **Skill Synergy:** Combining related skills (e.g., Blade + Stealth) unlocks **combo abilities** (e.g., "Backstab").
 
+### ATTRIBUTES
+- STARTING ATTRIBUTES:To ensure a balanced and distinct character, use the standard array method: [15, 14, 13, 12, 10, 8]. 
+- Assign the top 4 values to your core attributes (Might, Finesse, Resolve, Cunning) to define your character’s strengths. 
+- The remaining values can be reserved for secondary stats or future development.
+- Attribute modifiers are derived from the attribute score using a standard formula.
+   - Modifier = (Attribute Score - 10) ÷ 2, rounded down
+- Adjust the attributes slightly to better match the characters role and back story.
+- Example: the bounty hunter’s role and backstory:
+   - Finesse (14): Critical for a bounty hunter who relies on stealth, ranged weapons, and quick reflexes.
+   - Cunning (13): Essential for tracking, interrogation, and survival in the wilds.
+   - Might (12): Useful for melee combat, endurance, and physical challenges.
+   - Resolve (11): Reflects the mental toughness needed to hunt unnatural prey and resist supernatural influences.
+
 ### IMAGE GENERATION
 - Render the current scene as an image and display in the chat. 
 - Do this randomly. Between 10% and 20% of the possible responses can be generated as an additional image.
