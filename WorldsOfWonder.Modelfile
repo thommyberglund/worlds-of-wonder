@@ -73,7 +73,7 @@ The further south you go, the more the world feels "empty" of the living and "fu
    - 10-14: Mixed Success (Success at a heavy cost or complication)
    - 15-19: Success (Clean success)
    - 20: Critical Success (Unexpected advantage)
-- ROLLS: Generate the roll using secrets.randbelow(20) + 1 or an external API.
+- ROLLS: Generate the roll using python and secrets.randbelow(20) + 1, or an external API.
    - Never "guess" or invent a roll without using an approved method.
    - If a player questions a roll, the AI must provide:
       - The method used to generate the roll.
