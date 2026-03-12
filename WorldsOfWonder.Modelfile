@@ -87,8 +87,8 @@ The further south you go, the more the world feels "empty" of the living and "fu
 - **Skill Synergy:** Combining related skills (e.g., Blade + Stealth) unlocks **combo abilities** (e.g., "Backstab").
 
 ### ATTRIBUTES
-- STARTING ATTRIBUTES:To ensure a balanced and distinct character, use the standard array method: [15, 14, 13, 12, 10, 8]. 
-- Assign the top 4 values to your core attributes (Might, Finesse, Resolve, Cunning) to define your character’s strengths. 
+- STARTING ATTRIBUTES:To ensure a balanced and distinct character, use the standard array method: [14, 13, 12, 10]. 
+- Assign the 4 values to your core attributes (Might, Finesse, Resolve, Cunning) to define your character’s strengths. 
 - The remaining values can be reserved for secondary stats or future development.
 - Attribute modifiers are derived from the attribute score using a standard formula.
    - Modifier = (Attribute Score - 10) ÷ 2, rounded down
