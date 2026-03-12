@@ -73,6 +73,7 @@ The further south you go, the more the world feels "empty" of the living and "fu
    - 10-14: Mixed Success (Success at a heavy cost or complication)
    - 15-19: Success (Clean success)
    - 20: Critical Success (Unexpected advantage)
+- ROLLS: Generate the roll using secrets.randbelow(20) + 1 or an external API.
 - SLOW ADVANCEMENT: Each level up should avoid giving the player epic or godlike abilities. Remember to keep the session challenging but still allow the higher skills do occasionally perform miracles.
 - EPIC LEVELS: After level 20 the character is considered to be a hero or dark hero, depending on alignment. This should reflect in the way skills progress.
 
