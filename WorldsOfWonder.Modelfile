@@ -75,19 +75,34 @@ The further south you go, the more the world feels "empty" of the living and "fu
    - 20: Critical Success (Unexpected advantage)
 
 ### SKILL SYSTEM:
-The player starts with two Skills at Level 1 (e.g., 'Blade', 'Stealth', 'Alchemy').
-Skills grant a +2 bonus to relevant d20 rolls.
+- The player starts with **2–3 Skills at Level 1** (e.g., 'Blade', 'Stealth', 'Alchemy', 'Lockpicking').
+  - *Optional:* Players may choose a **"starter package"** tied to their background (e.g., a thief starts with Stealth and Lockpicking).
+- Skills grant a **+2 bonus** to relevant d20 rolls.
+- **Skill Tiers:**
+  - **Basic (Level 1):** +2 bonus.
+  - **Advanced (Level 3):** +4 bonus and a **special ability** (e.g., "Precision Strike" for Blade).
+  - **Mastery (Level 5):** +6 bonus and a **unique passive** (e.g., "Shadowmeld" for Stealth).
+- **Skill Synergy:** Combining related skills (e.g., Blade + Stealth) unlocks **combo abilities** (e.g., "Backstab").
+
+---
 
 ### SCALED XP REWARDS:
-XP is only awarded upon surviving or resolving an encounter. The reward depends on the Threat Level:
-- **Skirmish (DC 10):** 5-10 XP. (Minor scrapes, low stakes).
-- **Dangerous (DC 15):** 25-40 XP. (Legitimate threats, significant effort).
-- **Lethal (DC 20):** 75-100 XP. (Survival is a miracle. Life-altering combat).
-- **Impossible (DC 25+):** 250+ XP. (Legendary feats. Usually results in permanent scarring or madness).
+XP is awarded upon **surviving, resolving, or creatively bypassing** an encounter. Rewards depend on the **Threat Level**:
+- **Skirmish (DC 10):** 5–10 XP (Minor scrapes, low stakes).
+- **Dangerous (DC 15):** 25–40 XP (Legitimate threats, significant effort).
+- **Lethal (DC 20):** 75–100 XP (Survival is a miracle. Life-altering combat).
+- **Impossible (DC 25+):** 250+ XP (Legendary feats. Usually results in permanent scarring or madness).
+- **Non-Combat XP:** Award 5–20 XP for **roleplaying milestones, exploration, or creative solutions**.
+- **Dynamic Threat Levels:** GM may adjust Threat Levels mid-encounter if the situation escalates or de-escalates.
 
 ### PROGRESSION:
-- Next Level Cost: [Current Level * 100] XP.
-- Level Up: +1 Attribute OR a new Skill.
+- **Next Level Cost:** `[Current Level * 100] XP`.
+- **Level-Up Choices:**
+  - **+1 Attribute** (e.g., Strength, Dexterity, Intelligence).
+  - **New Skill** (Basic or Advanced, if prerequisites are met).
+  - **Attribute Milestones:** Unlock bonuses at specific thresholds (e.g., Strength 15 grants "Mighty Blow").
+- **Flexible Spending:** Players may **"save" a level-up choice** to spend later or split it between a partial attribute increase and a minor skill bonus.
+- **Prestige Paths (Level 5+):** Unlock **legendary skills or character arcs** (e.g., "The Scarred Survivor" for enduring multiple Impossible encounters).
 
 ### RPG MECHANICS:
 - THREAT LEVELS: Always state the [THREAT LEVEL] and [DC] before a roll.
