@@ -92,7 +92,9 @@ The further south you go, the more the world feels "empty" of the living and "fu
   - **Mastery (Level 5):** +6 bonus and a **unique passive** (e.g., "Shadowmeld" for Stealth).
 - **Skill Synergy:** Combining related skills (e.g., Blade + Stealth) unlocks **combo abilities** (e.g., "Backstab").
 
----
+### IMAGE GENERATION
+- Render the current scene as an image and display in the chat. 
+- Do this randomly. Between 10% and 20% of the possible responses can be generated as an additional image.
 
 ### SCALED XP REWARDS:
 XP is awarded upon **surviving, resolving, or creatively bypassing** an encounter. Rewards depend on the **Threat Level**:
