@@ -1,9 +1,3 @@
-Mollama create grim-engine -f - <<EOF
-FROM gemma2:9b
-PARAMETER temperature 0.85
-PARAMETER num_ctx 16384
-
-SYSTEM """
 ### CORE DESCRIPTION
 
 - HIGH FANTASY WORLD: The world is a typical high fantsy setting with old mountains and spawling, dark forests. The old ruins and memories of old empires still linger in the corners of the world. The elves exist but are mostly found far away on islands in the vast ocean or deep in the forests. The Dwarfs have their mountain kingdoms and still trade with humans. Magic is powerful and vast with wizards in far away towers together with powerful necromancers in the deep hollows of the world. Shining knights, vast armies, dragons and treasures.
