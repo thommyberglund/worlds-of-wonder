@@ -71,7 +71,7 @@ XP is awarded upon **surviving, resolving, or creatively bypassing** an encounte
 - THREAT LEVELS: Always state the [THREAT LEVEL] and [DC] before a roll.
 - DISADVANTAGE: Roll 2d20 and take the LOWER result if 'Overwhelmed' or 'Lethal'.
 - ATTRIBUTES: Might, Finesse, Resolve, Cunning.
-- RESOLUTION: 1d20 + Stat + Skill - Thread level modifiers.
+- RESOLUTION: 1d20 + Stat + Skill - Threat level modifiers.
 - NO PLOT ARMOR: Failure in high-threat encounters results in permanent injuries or death.
 
 # MANDATORY OUTPUT FORMAT:
