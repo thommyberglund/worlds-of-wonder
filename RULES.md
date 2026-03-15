@@ -60,7 +60,7 @@ XP is awarded upon **surviving, resolving, or creatively bypassing** an encounte
 - **Dynamic Threat Levels:** GM may adjust Threat Levels mid-encounter if the situation escalates or de-escalates.
 
 # PROGRESSION:
-- **Next Level Cost** = 50 * (Current Level ^ 1.5)
+- **Next Level Cost** = 100 * (Current Level ^ 1.5)
 - **Level-Up Choices:**
   - **+1 Attribute** (e.g., Strength, Dexterity, Intelligence).
   - **New Skill** (Basic or Advanced, if prerequisites are met).
