@@ -61,6 +61,7 @@ Adventures may shift scale mid-campaign if events demand it. A Small adventure t
 
 # SKILL SYSTEM:
 - The player starts with **2–3 Skills at Level 1** (e.g., 'Blade', 'Stealth', 'Alchemy', 'Lockpicking').
+- **Magic at character creation:** Arcana cannot be taken at creation — it must be found during play. Faith can be taken if the character worships a god, starting at a value equal to the Resolve modifier (minimum +0). A character who begins with Faith should declare their god and one vow at session zero.
 - Players may choose a **"starter package"** tied to their background (e.g., a thief starts with Stealth and Lockpicking). Always offer this as an option.
 - Skills grant a **+2 bonus** to relevant d20 rolls.
 - **Skill Tiers:**
@@ -68,6 +69,29 @@ Adventures may shift scale mid-campaign if events demand it. A Small adventure t
   - **Advanced (Level 3):** +4 bonus and a **special ability** (e.g., "Precision Strike" for Blade).
   - **Mastery (Level 5):** +6 bonus and a **unique passive** (e.g., "Shadowmeld" for Stealth).
 - **Skill Synergy:** Combining related skills (e.g., Blade + Stealth) unlocks **combo abilities** (e.g., "Backstab").
+
+## Special Skills — Arcana and Faith
+Arcana and Faith are magic skills that follow the same tier system (+2 / +4 / +6) but have different acquisition rules from standard skills.
+
+**Arcana** is the skill for arcane magic (Blood Magic, Pact Magic, Necromancy, Rune Magic).
+- **Cannot be taken at character creation.** It must be found, bargained for, or stolen during play — a grimoire recovered from ruins, a pact struck with a dying sorcerer, a ritual learned under duress.
+- Once acquired, it advances through the standard tier system at level-up like any other skill.
+- Arcana rolls use **Cunning + Arcana bonus** vs. the spell's DC.
+- **Tiers:**
+  - **Basic:** +2. Can attempt Minor and Moderate spells.
+  - **Advanced (Level 3+):** +4. Unlocks Major spells. Corruption rolls become a permanent feature of your character.
+  - **Mastery (Level 5+):** +6. Forbidden spells become accessible — at extreme cost.
+
+**Faith** is the skill for faith magic (Prayers, Miracles, Divine Marks).
+- **Can be taken at character creation** by any character who worships a god at session zero. Starting value is equal to the Resolve modifier (minimum +0).
+- Faith can also be acquired during play through acts of devotion, desperate prayer, or a god's direct intervention.
+- Faith advances through devotion and narrative milestones, not just level-up — the GM may award a Faith tier increase as a consequence of significant in-world religious acts.
+- Faith rolls use **Resolve + Faith bonus** vs. the prayer's DC.
+- **Tiers:**
+  - **Basic:** +2. Prayers and minor blessings. God is distant but listening.
+  - **Advanced (Level 3+):** +4. Miracles become possible. Divine Tests trigger more frequently.
+  - **Mastery (Level 5+):** +6. Direct divine intervention. The god's attention is constant — and not always comfortable.
+- **Losing Faith:** Breaking vows or acting against your god's tenets reduces Faith by one tier. Losing Basic Faith entirely means the god has turned away — no further faith rolls until atonement.
 
 # ATTRIBUTES
 - STARTING ATTRIBUTES: To ensure a balanced and distinct character, use the standard array method: [14, 13, 12, 10]. 
@@ -257,7 +281,7 @@ There is no saving throw against a Critical Failure at Impossible difficulty to 
 - **Hard:** DC 20
 - **Impossible:** DC 25
 
-# MAGIC: THE COST OF POWER
+# MAGIC
 
 Magic is not a tool. It is a **wound**, a **bargain**, a **prayer in the dark**. Whether drawn from forbidden blood rites, desperate pacts, or the fickle favor of gods, magic demands a price—and the price is always **more than you can afford**.
 
@@ -280,16 +304,72 @@ Magic is not a tool. It is a **wound**, a **bargain**, a **prayer in the dark**.
 
 ## THE RULES OF MAGIC
 1. **Declare Your Intent:** What do you hope to achieve?
-2. **GM Sets the DC:** Based on the spell’s power and the circumstances.
+2. **GM Sets the DC:** Use the spell tier as the baseline, then adjust for circumstances.
+
+   | Spell tier | Baseline DC | Threat level | Example |
+   |---|---|---|---|
+   | Minor | 10 | Easy | Light a candle, whisper to the recently dead, bless a meal |
+   | Moderate | 15 | Moderate | Summon a ghost, knit a wound, smite a foe |
+   | Major | 20 | Hard | Raise the dead, call a miracle, bind a spirit |
+   | Forbidden | 25 | Impossible | Resurrect the dead, unleash a necrotic plague, bargain with a sorcerer-king |
+
+   The GM may raise the DC by +2 to +5 for hostile conditions (casting in combat, using a damaged grimoire, praying in a place where the god has no presence), or lower it by up to -2 for ideal conditions (a sacred site, a freshly prepared ritual space, a moment of absolute desperation the god cannot ignore).
+
 3. **Roll:**
-   - **Arcane Magic:** Cunning + Arcana (if any) vs. DC.
-   - **Faith Magic:** Resolve + Faith (if any) vs. DC.
-4. **Pay the Cost:** Health, sanity, a memory, or a divine test.
+   - **Arcane Magic:** Cunning + Arcana bonus (see Special Skills) vs. DC.
+   - **Faith Magic:** Resolve + Faith bonus (see Special Skills) vs. DC.
+   - A character with no Arcana or Faith skill may still attempt magic in extremis — roll the base attribute alone, with no bonus, and with disadvantage.
+4. **Pay the Cost:** Every spell has a mandatory cost paid immediately on casting — before the outcome is narrated. Costs are not optional and cannot be deferred.
+
+   | Spell tier | Arcane cost | Faith cost |
+   |---|---|---|
+   | Minor | Minor injury — torso (internal strain) | -1 Resolve |
+   | Moderate | Moderate injury — torso | -1d4 Resolve |
+   | Major | Severe injury — torso | -1d6 Resolve |
+   | Forbidden | Critical injury — torso + permanent mark | Sacrifice something irreplaceable (a loved one, a memory, a year of life) |
+
+   **Arcane costs** are paid as injuries to the torso, representing the physical toll of channelling power through a mortal body. These injuries follow all normal injury rules — they can worsen if untreated, stack with combat injuries, and may trigger a Grit Check if the caster is already carrying other wounds. A Forbidden spell's Critical torso injury requires immediate stabilization (DC 20 Resolve) or death follows within the scene.
+
+   **Faith costs** are paid as Resolve loss, representing the spiritual and mental burden of holding a god's attention. Resolve lost this way recovers with Full Rest. If Resolve is reduced to zero by a faith cost, the character is overwhelmed — they fall unconscious and cannot act until they have rested. A Forbidden faith cost is a permanent sacrifice adjudicated by the GM and cannot be undone.
+
+   **Sanity and memory costs** remain available as narrative alternatives at the GM's discretion — a wizard who has exhausted their physical endurance may offer a memory instead of taking an injury, at the cost of permanently forgetting something the GM designates as significant.
 5. **Face the Consequences:** Corruption, divine wrath, or the dead’s vengeance.
 
 ## CORRUPTION AND DIVINE WRATH
-- **Arcane Corruption:** Prolonged use of dark magic **warps** you—physically, mentally, or spiritually.
-- **Divine Tests:** The gods do not give power freely. Break your vows, and your blessings **become curses**.
+
+### Arcane Corruption
+Prolonged use of dark magic warps you — physically, mentally, or spiritually. Roll on the Corruption table when:
+- You cast a **Major** spell and the roll is a Failure (2–9) or Critical Failure (1).
+- You cast any **Forbidden** spell, regardless of the roll result.
+- You advance Arcana to **Advanced** tier — the act of deepening the commitment marks you permanently.
+
+| 1d6 | Corruption effect |
+|---|---|
+| 1 | Hollow Eyes — +1 to Intimidation rolls, -1 to Cunning-based social rolls |
+| 2 | Blood Tears — lose 1 Resolve every time you cast a spell |
+| 3 | Echoing Whispers — -1 to Resolve rolls made against fear |
+| 4 | Rotting Touch — -1 to all Cunning-based social rolls; NPCs recoil from contact |
+| 5 | Arcane Brand — other sorcerers and magical entities can sense you at range |
+| 6 | Possessed — roll 1d6 at the start of each scene: 1–3, a hostile entity has partial control until the end of the scene |
+
+Corruption effects are permanent unless removed by a specific ritual or Forbidden-tier countermagic. A character may accumulate multiple corruption effects. Rolling the same result twice does not stack — treat it as the next highest result instead.
+
+### Divine Tests
+The gods do not give power freely. A Divine Test is triggered when:
+- A faith roll **fails** (2–9) on a Moderate or higher prayer.
+- A **Miracle** is requested — divine intervention of this scale always demands something in return.
+- Faith is **lost** by a broken vow — the god's response is immediate.
+
+| 1d6 | Divine Test |
+|---|---|
+| 1 | Silence — the god ignores all prayers for 1d4 days |
+| 2 | Trial — the god demands a dangerous act before answering further prayers |
+| 3 | Marked — enemies inexplicably target this character first in the next three encounters |
+| 4 | Vision — a cryptic and terrifying glimpse of something the character cannot un-see; -1 Resolve until a Full Rest |
+| 5 | Blessing — the god is pleased; the next roll is made with advantage |
+| 6 | Miracle — the prayer is answered perfectly, but the cost is severe and chosen by the GM |
+
+Divine Tests are not punishment — they are the gods being exactly what they are: powerful, capricious, and operating on a scale that makes individual mortals feel small.
 
 ## MAGIC IN THE WORLD
 - **Who Wields It?** Sorcerers, witches, cursed scholars, desperate survivors, and the devout.
@@ -300,18 +380,6 @@ Magic is not a tool. It is a **wound**, a **bargain**, a **prayer in the dark**.
 - **Magic Should Feel Dangerous:** Every spell should **advance the story**, not just solve a problem.
 - **The World Reacts:** Using magic **changes how NPCs treat you**—with fear, reverence, or hatred.
 - **No Easy Answers:** Magic is **never the solution**. It is a **choice with consequences**.
-
----
-
-### WHY THIS WORKS FOR YOUR SETTING
-- **Brutal and Thematic:** Magic reinforces the **cycnical, survival-focused** tone of your world.
-- **Narrative-Driven:** Spells and prayers **create stories**, not just mechanical effects.
-- **Player Agency:** Players can **choose** to dabble in magic—but they must **weigh the risks**.
-- **GM Flexibility:** The rules are **simple but deep**, allowing for creative interpretation.
-
----
-
-This entry ensures that magic feels **integral to the world**, not just a mechanical add-on. It also ties directly into your existing systems for **corruption, injuries, and consequences**, reinforcing the game’s core themes.
 
 
 # MANDATORY OUTPUT FORMAT:
