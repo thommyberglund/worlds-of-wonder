@@ -161,6 +161,33 @@ Saltmere serves as a secondary supply hub and refugee processing point. Its harb
 
 ---
 
+### Thistle Hold
+**Coordinates:** X=460, Y=820
+**Type:** Fortified coastal town (small)
+**Population:** ~1,500
+**Status:** Active; troubled by recent blight incidents
+
+**Description:** A smaller coastal settlement southwest of Saltmere, built around a natural harbour where a river mouth has been dredged and walled against the tide. Thistle Hold is old enough to have a history but not grand enough to have a garrison — its defence rests on a town watch, a modest wall of timber and packed earth reinforced with stone at the gate, and the general hardiness of a population that has never had the luxury of feeling entirely safe.
+
+The town's economy runs on fishing, coastal trade, and a modest market that serves the surrounding farmsteads. It has one temple, belonging to the Order of the Dawn, and a population that is characteristically suspicious of outsiders — not hostile, but watchful in the way of people who have learned that trouble usually arrives on someone else's feet.
+
+Beneath the town, a network of pre-settlement catacombs runs under the older districts. The townsfolk know they exist and avoid them. Occasionally something comes up from below, and the town watch handles it quietly and does not file reports.
+
+**Notable locations:**
+
+| Location | Description |
+|---|---|
+| The Abandoned Apothecary | Dilapidated building on the town's outskirts; formerly a working apothecary, now a front for necromantic operations |
+| The Temple of the Dawn | Modest stone building near the town centre; seat of High Priestess Seraphine |
+| The Iron Pact Counting House | A merchant association office on the harbor road; unofficial power broker in town commerce |
+| The Catacombs | Pre-settlement tunnels beneath the older districts; origin unknown, largely unmapped |
+
+**Terrain:** River mouth harbour. Timber and stone walls. Low coastal headland. Farmland to the north and east.
+
+**Significance:** Setting for The Blighted Apothecary. Home of High Priestess Seraphine and the Order of the Dawn. Site of Veyth's necromantic operation beneath the abandoned apothecary.
+
+---
+
 ## Settlements — Referenced but Unvisited
 
 ---

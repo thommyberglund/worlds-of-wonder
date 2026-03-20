@@ -54,3 +54,5 @@ The further south you go, the more the world feels "empty" of the living and "fu
 - The Elven Paradox: The Elves' desire for "static peace" may be the only thing keeping the world's natural cycles slow enough to keep the Kings asleep—or their magic may be exactly what the Kings need to wake up.
 
 - The Fate vs. Magic: While Wizards study the mechanics of the world, those who follow The Fate manifest power through sheer belief, creating a cultural tension between the learned and the devout.
+
+- The Iron Pact: A merchant association operating across the Shattered Coast cities, nominally a trade consortium but in practice a network of commercial interests that operates in the space between the church, the nobility, and the harbour councils. The Iron Pact does not hold territory or field armies — its power is debt, contract, and information. In smaller settlements like Thistle Hold, it may be the only organised authority that functions day to day. It is not evil in any simple sense. It is interested, which is often more dangerous.

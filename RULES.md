@@ -33,7 +33,7 @@ One location. One problem. The world does not notice whether the character succe
 - **Examples:** A haunted mill. A missing child. A debt that needs collecting. A killer loose in a frontier settlement.
 - **Failure consequences:** The character suffers. The people immediately around them suffer. The region does not change.
 - **Tone:** Intimate and claustrophobic. Every face has a name. Stakes are personal, not political.
-- **XP modifier:** × 1.5 — advancement is faster to match the shorter campaign arc.
+- **XP modifier:** None — level costs are reduced instead (75 × Level ^ 1.2). Encounter rewards are unchanged.
 - **Prestige Paths:** Unavailable. Characters are unlikely to reach level 5, and legendary arcs belong to larger stages.
 
 ## Medium — Regional Stakes
@@ -43,7 +43,7 @@ A chain of connected problems across one region. Political, social, or ecologica
 - **Examples:** A lord's conspiracy strangling a frontier zone. A series of disappearances with a source upstream. A warlord unifying the plains warbands. A plague with a culprit.
 - **Failure consequences:** The region changes in a lasting way. Power shifts. People die who would have lived. The coastal cities may take notice.
 - **Tone:** Political and layered. Alliances matter. Information is a resource. Not every problem can be solved with a blade.
-- **XP modifier:** × 1.0 — default rate, no adjustment.
+- **XP modifier:** None — level costs use the default formula (100 × Level ^ 1.2).
 - **Prestige Paths:** Available from level 5. Character arcs should reflect regional reputation and consequence.
 
 ## Epic — World Stakes
@@ -53,7 +53,7 @@ Multiple regions or the entire world. Existential consequences. Failure is perma
 - **Examples:** The undead stirring in force across the plains. A sorcerer-king waking in the deep south. The elven groves failing. A vampire lord uniting the scattered turned into an army.
 - **Failure consequences:** The world is worse for a generation or longer. Some things cannot be undone. The character may die for nothing and the chronicle continues without them.
 - **Tone:** Weight and dread. Individual moments still matter — the genre demands it — but the horizon is always visible. Every small victory is borrowed time.
-- **XP modifier:** × 0.75 — slower advancement. Power must be earned across a long arc.
+- **XP modifier:** None — level costs are increased instead (130 × Level ^ 1.2). Power is earned across a long arc.
 - **Prestige Paths:** Available from level 5. At Epic scale, Prestige arcs should reflect world-altering choices and their costs — not just combat achievement.
 
 ## Scale Drift
@@ -120,18 +120,18 @@ XP is awarded upon **surviving, resolving, or creatively bypassing** an encounte
 - **Non-Combat XP:** Award 5–20 XP for **roleplaying milestones, exploration, or creative solutions**.
 - **Dynamic Threat Levels:** GM may adjust Threat Levels mid-encounter if the situation escalates or de-escalates.
 
-**Adventure Scale modifier:** Apply the active scale multiplier to all XP earned before adding it to the character total.
+**Adventure Scale modifier:** Scale affects how much levels *cost*, not how much encounters *reward*. XP rewards are the same regardless of scale — what changes is the target needed to reach the next level.
 
-| Scale | Multiplier | Effect |
+| Scale | Level cost formula | Effect |
 |---|---|---|
-| Small | × 1.5 | Faster advancement — campaign is short, progression should feel meaningful |
-| Medium | × 1.0 | Default — no adjustment |
-| Epic | × 0.75 | Slower advancement — power is earned across a long arc |
+| Small | 75 × (Level ^ 1.2) | Reduced cost — campaign is short, advancement should feel earned but not glacial |
+| Medium | 100 × (Level ^ 1.2) | Default — no adjustment |
+| Epic | 130 × (Level ^ 1.2) | Increased cost — power is earned slowly across a long arc |
 
-Round final XP to the nearest whole number. If scale drifts mid-campaign, apply the new multiplier from the session following the GM's declaration.
+Round final XP costs to the nearest whole number. If scale drifts mid-campaign, apply the new formula from the next session forward. XP already accumulated is not refunded or penalised — only the target for the next level changes.
 
 # PROGRESSION:
-- **Next Level Cost** = 100 * (Current Level ^ 1.2)
+- **Next Level Cost** = Scale multiplier × (Current Level ^ 1.2) — see Adventure Scale modifier table for the multiplier (75 / 100 / 130 for Small / Medium / Epic).
 - **Level-Up Choices:**
   - **+1 Attribute** (e.g., Strength, Dexterity, Intelligence).
   - **New Skill** (Basic or Advanced, if prerequisites are met).
@@ -205,6 +205,31 @@ Injuries to different locations apply independently and do not stack against eac
 | Severe | -2 to relevant stat or skill | Significantly impaired; some actions unavailable |
 | Critical | -3 to relevant stat or skill | Barely functional; that body part is close to lost |
 | Permanent | Stat or skill reduced by 1 forever | Scarring, nerve damage, lost function — narratively justified |
+
+## Damage Dice
+Some special attacks, abilities, and magical effects are described using damage dice (d4, d6, d8, d10). These are not a separate HP system — they are a shorthand for determining injury severity. When a damage dice result is called for, roll the die and consult the table below to find the resulting injury. Then assign it to a relevant body location as normal.
+
+| Die | Result | Injury |
+|---|---|---|
+| d4 | 1–2 | Minor |
+| d4 | 3–4 | Moderate |
+| d6 | 1–2 | Minor |
+| d6 | 3–4 | Moderate |
+| d6 | 5–6 | Severe |
+| d8 | 1–2 | Minor |
+| d8 | 3–5 | Moderate |
+| d8 | 6–7 | Severe |
+| d8 | 8 | Critical |
+| d10 | 1–3 | Minor |
+| d10 | 4–6 | Moderate |
+| d10 | 7–9 | Severe |
+| d10 | 10 | Critical |
+
+**When damage dice apply:** Damage dice are used for special attacks and abilities that deal harm outside the standard roll → threat level outcome. They do not replace the injury table — they supplement it. A normal combat roll still produces injuries via the threat level table. A special ability that says "deals 1d6 damage" uses the damage dice table above instead.
+
+**Stacking:** A damage dice injury stacks with any injury already sustained from the triggering roll. If a character fails their attack roll against a Hard threat (taking a Severe injury from the table) and the opponent's riposte also deals 1d6, resolve both independently.
+
+**Modifiers:** Some effects may specify a die type one step higher or lower. A fire weakness that reads "fire attacks deal +1 damage die step" means a d4 attack becomes a d6, a d6 becomes a d8, and so on.
 
 ## Recovery
 Recovery requires two things: **time** and **treatment**. Untreated injuries do not heal — they hold at current severity or worsen under stress.
